@@ -27,6 +27,7 @@ Cada función recibe un valor como argumento y devuelve true si es válido o fal
 
 
 
+![image](https://github.com/user-attachments/assets/ef939461-111f-457e-8d40-e3b2fd311bf7)
 
 
 
