@@ -24,6 +24,84 @@ Cada función recibe un valor como argumento y devuelve true si es válido o fal
 
 ## Ejemplo de implementación CODIGO ESENCIAL
 
+#### JavaScript
+```javascript
+const validation = new JustValidate('#formulario');
+
+validation
+  .addField('#usuario', [
+    {
+      rule: 'required',
+      errorMessage: 'El usuario es obligatorio',
+    },
+    {
+      rule: 'customRegexp',
+      value: /^[A-Za-z0-9_]{8,16}$/,
+      errorMessage: 'Debe tener entre 8 y 16 caracteres, letras, números o guion bajo',
+    },
+  ])
+  .addField('#nombre', [
+    {
+      rule: 'required',
+      errorMessage: 'El nombre es obligatorio',
+    },
+    {
+      rule: 'customRegexp',
+      value: /^[A-ZÁÉÍÓÚÑ\s]+$/,
+      errorMessage: 'Solo mayúsculas y espacios. Ej: PÉREZ LÓPEZ JUAN',
+    },
+  ])
+  .addField('#password', [
+    {
+      rule: 'required',
+      errorMessage: 'La contraseña es obligatoria',
+    },
+    {
+      rule: 'customRegexp',
+      value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$%\^&\*\-_])[A-Za-z\d!@#\$%\^&\*\-_]{8,}$/,
+      errorMessage: 'Contraseña insegura o mal formada',
+    },
+  ])
+  .addField('#confirmar', [
+    {
+      validator: (value, fields) => value === fields['#password'].elem.value,
+      errorMessage: 'Las contraseñas no coinciden',
+    },
+  ])
+  .addField('#correo', [
+    {
+      rule: 'required',
+      errorMessage: 'Correo obligatorio',
+    },
+    {
+      rule: 'email',
+      errorMessage: 'Correo inválido',
+    },
+  ])
+  .addField('#telefono', [
+    {
+      rule: 'required',
+      errorMessage: 'Teléfono obligatorio',
+    },
+    {
+      rule: 'customRegexp',
+      value: /^[0-9]{10}$/,
+      errorMessage: 'Debe contener exactamente 10 dígitos',
+    },
+  ])
+  .addField('#terminos', [
+    {
+      rule: 'required',
+      errorMessage: 'Debes aceptar los términos',
+    },
+  ])
+  .onSuccess((event) => {
+    alert('Formulario enviado correctamente');
+    event.target.reset();
+  });
+
+```
+
 
 ## FORMULARIO VALIDADO
 
