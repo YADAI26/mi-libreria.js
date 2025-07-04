@@ -1,4 +1,28 @@
-# Librería Enlace de repositorio: validadorForm EQUIPO 10
+# Librería Enlace de repositorio: validadorForm 
+
+<div align="center">
+
+# Librería Enlace de repositorio: validadorForm
+
+**TECNOLOGICO NACIONAL DE MEXICO**  
+**INSTITUTO TECNOLÓGICO DE OAXACA**
+
+Departamento de Ingeniería en Sistemas Computacionales  
+
+Materia: Programación Web  
+“Librería Enlace de repositorio de Github y/o GitHub Pages”  
+Profesor: Martínez Nieto Adelina
+
+Equipo 10:  
+López Cruz David Eduardo  
+Salinas Montesinos Cintia Yadai  
+Grupo: VSI  
+
+Oaxaca, Oaxaca, a 04 de julio de 2025.
+
+</div>
+
+
 
 **validadorForm** 
 - La librería validadorForm  generalmente se utiliza para validar formularios en aplicaciones web o móviles.
