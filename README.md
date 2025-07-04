@@ -41,9 +41,9 @@ Puedes incluir la librería en tu proyecto HTML mediante una descarga directa de
 1.-Descarga el archivo validadorForm.js y colócalo en la misma carpeta de tu proyecto HTML.
 
 2.-Luego inclúyelo así:
-'''
+
 <script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
-'''
+
 ---
 
 ## USO⚙️
@@ -81,7 +81,6 @@ https://youtu.be/CtLE1ba44DY?si=mP8CXnXXQ3ZdG29T
 
 ## GitHub Pages
 http://127.0.0.1:5500/BmiLibreria/libreria.html
-
 
 
 
