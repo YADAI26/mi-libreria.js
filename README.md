@@ -16,27 +16,15 @@ Puedes incluir la librería en tu proyecto HTML mediante una descarga directa de
 2.-Luego inclúyelo así:
 <script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
 
+---
+
 ## USO⚙️
 La librería validadorForm proporciona funciones simples que puedes llamar directamente desde JavaScript para validar campos de un formulario. 
 Cada función recibe un valor como argumento y devuelve true si es válido o false si no lo es.
 
 ## Ejemplo de implementación CODIGO ESENCIAL
 
-const validadorForm = {
-  validarUsuario: (usuario) => /^[A-Za-z0-9_]{8,16}$/.test(usuario),
 
-  validarNombre: (nombre) => /^[A-ZÁÉÍÓÚÑ\s]+$/.test(nombre),
-
-  validarCorreo: (correo) =>
-    /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/.test(correo),
-
-  validarTelefono: (telefono) => /^[0-9]{10}$/.test(telefono),
-
-  validarContrasena: (contrasena) =>
-    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$%\^&\*\-_])[A-Za-z\d!@#\$%\^&\*\-_]{8,}$/.test(contrasena),
-
-  confirmarContrasena: (pass1, pass2) => pass1 === pass2,
-};
 
 
 
