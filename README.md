@@ -105,7 +105,12 @@ validation
 
 ## FORMULARIO VALIDADO
 Imagen:
-![image](https://github.com/user-attachments/assets/ef939461-111f-457e-8d40-e3b2fd311bf7)
+![image](https://github.com/user-attachments/assets/c05bcdc4-ba9e-4971-b16b-95cf286ec347)
+
+Formulario con capus rellenados
+
+![image](https://github.com/user-attachments/assets/c252ba28-b97a-463e-9442-af9c051f0d0e)
+
 
 
 
