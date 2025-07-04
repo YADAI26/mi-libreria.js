@@ -20,54 +20,25 @@ Puedes incluir la librería en tu proyecto HTML mediante una descarga directa de
 La librería validadorForm proporciona funciones simples que puedes llamar directamente desde JavaScript para validar campos de un formulario. 
 Cada función recibe un valor como argumento y devuelve true si es válido o false si no lo es.
 
-Ejemplo de implementación 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Prueba de validadorForm</title>
-  <script src="validadorForm.js"></script>
-</head>
-<body>
-  <h2>Validar formulario</h2>
+## Ejemplo de implementación CODIGO ESENCIAL
 
-  <input type="text" id="usuario" placeholder="Usuario">
-  <input type="text" id="correo" placeholder="Correo">
-  <input type="password" id="password" placeholder="Contraseña">
-  <input type="password" id="confirmar" placeholder="Confirmar contraseña">
-  <button onclick="validarFormulario()">Validar</button>
+const validadorForm = {
+  validarUsuario: (usuario) => /^[A-Za-z0-9_]{8,16}$/.test(usuario),
 
-  <script>
-    function validarFormulario() {
-      const usuario = document.getElementById("usuario").value;
-      const correo = document.getElementById("correo").value;
-      const pass = document.getElementById("password").value;
-      const pass2 = document.getElementById("confirmar").value;
+  validarNombre: (nombre) => /^[A-ZÁÉÍÓÚÑ\s]+$/.test(nombre),
 
-      if (!validadorForm.validarUsuario(usuario)) {
-        alert("Usuario inválido");
-        return;
-      }
+  validarCorreo: (correo) =>
+    /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/.test(correo),
 
-      if (!validadorForm.validarCorreo(correo)) {
-        alert("Correo inválido");
-        return;
-      }
+  validarTelefono: (telefono) => /^[0-9]{10}$/.test(telefono),
 
-      if (!validadorForm.validarContrasena(pass)) {
-        alert("Contraseña insegura");
-        return;
-      }
+  validarContrasena: (contrasena) =>
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#\$%\^&\*\-_])[A-Za-z\d!@#\$%\^&\*\-_]{8,}$/.test(contrasena),
 
-      if (!validadorForm.confirmarContrasena(pass, pass2)) {
-        alert("Las contraseñas no coinciden");
-        return;
-      }
+  confirmarContrasena: (pass1, pass2) => pass1 === pass2,
+};
 
-      alert("¡Formulario válido!");
-    }
-  </script>
-</body>
-</html>
+
+
 
 
