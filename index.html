@@ -1,1 +1,68 @@
-<h1>Github mi libreria.js</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Validado</title>
+  <link rel="stylesheet" href="css/libreria.css" />
+  <script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form id="formulario">
+  <div class="fila">
+    <div class="form-group">
+      <label for="campo-usuario">Usuario</label>
+      <input type="text" name="usuario" class="campo-usuario" />
+      <small class="info">Tiene que ser de 8-16 dígitos y solo puede contener números, letras y guion bajo</small>
+    </div>
+    <div class="form-group">
+      <label for="campo-nombre">Nombre</label>
+      <input type="text" name="nombre" class="campo-nombre" />
+      <small class="info">Empezar por apellidos y todo debe ser MAYÚSCULAS</small>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="form-group">
+      <label for="campo-password">Contraseña</label>
+      <input type="password" name="password" class="campo-password" />
+      <small class="info">Mínimo 8 caracteres, mayúscula, minúscula, número, símbolo. Sin espacios</small>
+    </div>
+    <div class="form-group">
+      <label for="campo-confirmar">Repetir Contraseña</label>
+      <input type="password" name="confirmar" class="campo-confirmar" />
+      <small class="info">Debe ser la misma que la anterior</small>
+    </div>
+  </div>
+
+  <div class="fila">
+    <div class="form-group">
+      <label for="campo-correo">Correo Electrónico</label>
+      <input type="email" name="correo" class="campo-correo" placeholder="EX:juan.perez@gmail.com" />
+      <small class="info">Puede tener letras, números, puntos, guiones y @</small>
+    </div>
+    <div class="form-group">
+      <label for="campo-telefono">Teléfono</label>
+      <input type="text" name="telefono" class="campo-telefono" />
+      <small class="info">Debe contener exactamente 10 dígitos sin espacios</small>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="campo-curp">CURP (Opcional)</label>
+    <input type="text" name="curp" class="campo-curp" />
+    <small class="info">18 caracteres alfanuméricos (ej: PEGL900101HMCRRS09)</small>
+  </div>
+
+  <div class="form-group">
+    <label><input type="checkbox" name="terminos" class="campo-terminos" /> Acepto los Términos y Condiciones</label>
+  </div>
+
+  <button type="submit">Enviar</button>
+</form>
+
+  </div>
+  <script src="js/libreria.js"></script>
+</body>
+</html>
