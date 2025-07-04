@@ -32,6 +32,18 @@ Puedes incluir la librería en tu proyecto HTML mediante una descarga directa de
 ## USO⚙️
 - La librería validadorForm proporciona funciones simples que puedes llamar directamente desde JavaScript para validar campos de un
   formulario. Cada función recibe un valor como argumento y devuelve true si es válido o false si no lo es.
+  
+Ejemplo de implementación en HTML/JS (con código embebido):
+```HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario Validado</title>
+  <script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
+</head>
+```
 
 ## Ejemplo de implementación CODIGO ESENCIAL
 
