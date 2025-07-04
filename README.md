@@ -2,11 +2,13 @@
 
 
 **validadorForm** 
-La librería validadorForm (o cualquier librería con un nombre similar) generalmente se utiliza para validar formularios en aplicaciones web o móviles. 
-Su propósito principal es facilitar la validación de datos ingresados por los usuarios, asegurándose de que cumplan con ciertos criterios antes de ser procesados o enviados al servidor.
-La librería validadorForm permite validar campos comunes de formularios HTML como usuario, nombre, correo electrónico, contraseña, teléfono y confirmación de contraseña.
+-La librería validadorForm (o cualquier librería con un nombre similar) generalmente se utiliza para validar formularios en aplicaciones web o móviles. 
+Su propósito principal es facilitar la validación de datos ingresados por los usuarios, asegurándose de que cumplan con ciertos criterios antes de ser procesados 
+o enviados al servidor. La librería validadorForm permite validar campos comunes de formularios HTML como usuario, nombre, correo electrónico, contraseña, teléfono 
+y confirmación de contraseña.
 Esta librería resuelve el problema de la validación manual en formularios web, evitando errores típicos como correos mal escritos, contraseñas inseguras o teléfonos incompletos.
-Se puede utilizar en formularios de registro, encuestas, sitios web escolares o cualquier sistema donde se necesite validar datos antes de enviarlos al servidor, sin necesidad de frameworks externos
+Se puede utilizar en formularios de registro, encuestas, sitios web escolares o cualquier sistema donde se necesite validar datos antes de enviarlos al servidor, sin necesidad de 
+frameworks externos
 
 ---
 
@@ -23,7 +25,7 @@ Puedes incluir la librería en tu proyecto HTML mediante una descarga directa de
 ---
 
 ## USO⚙️
-La librería validadorForm proporciona funciones simples que puedes llamar directamente desde JavaScript para validar campos de un formulario. 
+-La librería validadorForm proporciona funciones simples que puedes llamar directamente desde JavaScript para validar campos de un formulario. 
 Cada función recibe un valor como argumento y devuelve true si es válido o false si no lo es.
 
 ## Ejemplo de implementación CODIGO ESENCIAL
