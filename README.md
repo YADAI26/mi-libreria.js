@@ -1,8 +1,9 @@
 # Librería Enlace de repositorio: validadorForm EQUIPO 10
 
-
 **validadorForm** 
--La librería validadorForm (o cualquier librería con un nombre similar) generalmente se utiliza para validar formularios en aplicaciones web o móviles. 
+- La librería validadorForm (o cualquier librería con un nombre similar) generalmente se utiliza para validar formularios en aplicaciones web o móviles.
+  
+## Descripción General
 Su propósito principal es facilitar la validación de datos ingresados por los usuarios, asegurándose de que cumplan con ciertos criterios antes de ser procesados 
 o enviados al servidor. La librería validadorForm permite validar campos comunes de formularios HTML como usuario, nombre, correo electrónico, contraseña, teléfono 
 y confirmación de contraseña.
@@ -10,6 +11,11 @@ Esta librería resuelve el problema de la validación manual en formularios web,
 Se puede utilizar en formularios de registro, encuestas, sitios web escolares o cualquier sistema donde se necesite validar datos antes de enviarlos al servidor, sin necesidad de 
 frameworks externos
 
+## ¿qué problema resuelve?
+Previene errores de entrada de datos
+Problema: El usuario puede escribir datos incorrectos (ej. contraseña débil, correo inválido, teléfono incompleto).
+
+Solución: JustValidate revisa que cada campo cumpla ciertas condiciones antes de enviarse.
 ---
 
 ## 📦INSTALACIÓN
