@@ -15,7 +15,6 @@ frameworks externos
 Previene errores de entrada de datos
 Problema: El usuario puede escribir datos incorrectos (ej. contraseña débil, correo inválido, teléfono incompleto).
 
-Solución: JustValidate revisa que cada campo cumpla ciertas condiciones antes de enviarse.
 ---
 
 ## 📦INSTALACIÓN
