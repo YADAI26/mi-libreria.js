@@ -116,11 +116,12 @@ validation
 ```
 
 ## FORMULARIO VALIDADO
-Imagen:
+consola del navegador mostrando resultados 
+
+Imagen1: formulario mostrando todos los campus
 ![image](https://github.com/user-attachments/assets/c05bcdc4-ba9e-4971-b16b-95cf286ec347)
 
 Formulario con capus rellenados
-
 ![image](https://github.com/user-attachments/assets/c252ba28-b97a-463e-9442-af9c051f0d0e)
 
 
