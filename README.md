@@ -2,8 +2,6 @@
 
 <div align="center">
 
-# Librería Enlace de repositorio: validadorForm
-
 **TECNOLOGICO NACIONAL DE MEXICO**  
 **INSTITUTO TECNOLÓGICO DE OAXACA**
 
@@ -40,14 +38,12 @@ Problema: El usuario puede escribir datos incorrectos (ej. contraseña débil, c
 ## 📦INSTALACIÓN
 Puedes incluir la librería en tu proyecto HTML mediante una descarga directa del archivo:
 
-🔹 Opción 1: Descarga directa
-
 1.-Descarga el archivo validadorForm.js y colócalo en la misma carpeta de tu proyecto HTML.
 
 2.-Luego inclúyelo así:
-
+'''
 <script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
-
+'''
 ---
 
 ## USO⚙️
