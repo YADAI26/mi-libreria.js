@@ -80,8 +80,7 @@ Formulario con capus rellenados
 https://youtu.be/CtLE1ba44DY?si=mP8CXnXXQ3ZdG29T
 
 ## GitHub Pages
-http://127.0.0.1:5500/BmiLibreria/libreria.html
-
+https://yadai26.github.io/mi-libreria.js/
 
 
 
